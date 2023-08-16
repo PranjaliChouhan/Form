@@ -112,20 +112,20 @@ button {
 }
 
 .dob{
-  width: 1010px;
+  width: 100%;
 }
 @media (max-width: 768px) {
   .dob{
-    width: 450px;
+    width: 100%;
   }
   .address{
-    width: 200px;
+    width: 70%;
   }
   .address-fields{
-    width: 450px;
+    width: 85%;
   }
   .country{
-    width: 215px;
+    width: 75%;
   }
   .home-inside1,
 .home-inside2{
@@ -136,16 +136,16 @@ button {
 }
 @media (max-width: 480px){
   .dob{
-    width: 380px;
+    width: 100%;
   }
   .address{
-    width: 175px;
+    width: 70%;
   }
   .address-fields{
-    width: 380px;
+    width: 85%;
   }
   .country{
-    width: 190px;
+    width: 80%;
   }
   .home-inside1,
 .home-inside2{

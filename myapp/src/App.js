@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className='outer-container'>
-      <h2>Exam Registration Form</h2>
+      <h2> Registration Form</h2>
       <Formik
         initialValues={{
           firstName: '',
