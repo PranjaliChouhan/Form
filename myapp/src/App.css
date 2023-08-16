@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.outer-container {
+  
+  margin: auto;
+  width: 80%;
+}
+
+.home {
+  display: grid;
+ 
+
+  
+}
+
+.address-fields {
+  display: grid;
+  grid-template-columns: 1fr ;
+  gap: 10px;
+  width: 1010px;
+}
+
+
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 10px; 
+ 
+  
+}
+.home-inside1,
+.home-inside2{
+  margin-right: 20px;
+  
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.address{
+  margin-bottom: 10px;
+width: 480px;
+ 
+}
+
+
+label {
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.dob{
+  width: 1010px;
+}
+@media (max-width: 768px) {
+  .dob{
+    width: 450px;
+  }
+  .address{
+    width: 200px;
+  }
+  .address-fields{
+    width: 450px;
+  }
+  .country{
+    width: 215px;
+  }
+  .home-inside1,
+.home-inside2{
+  margin-right: 0;
+}
+.address-fields {
+  width: 450px;
+}
+
+}
