@@ -131,8 +131,25 @@ button {
 .home-inside2{
   margin-right: 0;
 }
-.address-fields {
-  width: 450px;
+
+
+}
+@media (max-width: 480px){
+  .dob{
+    width: 380px;
+  }
+  .address{
+    width: 175px;
+  }
+  .address-fields{
+    width: 380px;
+  }
+  .country{
+    width: 190px;
+  }
+  .home-inside1,
+.home-inside2{
+  margin-right: 0;
 }
 
 }
