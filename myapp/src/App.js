@@ -7,7 +7,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 
 function App() {
   const handleSubmit = (values, { setSubmitting }) => {
-    // Combine first name and last name before logging
+    
     const fullName = `${values.firstName} ${values.lastName}`;
     console.log(fullName);
     console.log(values);
@@ -31,7 +31,7 @@ function App() {
             postalCode: '',
             country: '', // Initialize country as empty string
           },
-          percentage: '',
+         
         }}
         onSubmit={handleSubmit}
       >
